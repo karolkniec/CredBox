@@ -1,0 +1,31 @@
+{
+  "name": "credbox",
+  "version": "1.0.0",
+  "description": "Credentials manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiboFX/CredBox.git"
+  },
+  "keywords": [
+    "credbox"
+  ],
+  "author": "Karol Knieć",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "bugs": {
+    "url": "https://github.com/FiboFX/CredBox/issues"
+  },
+  "homepage": "https://github.com/FiboFX/CredBox#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "pug": "^3.0.2"
+  }
+}
